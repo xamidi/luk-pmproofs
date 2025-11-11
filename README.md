@@ -12,6 +12,10 @@ Variant of [metamath/mmsolitaire/pmproofs](https://us.metamath.org/mmsolitaire/p
 
 from “[Łukasiewicz (L₁)-system](https://www.jstage.jst.go.jp/article/pjab1945/41/6/41_6_436/_pdf)”.
 
+##### Contributions
+
+Please create [an issue](https://github.com/xamidi/luk-pmproofs/issues) or [a pull request](https://github.com/xamidi/luk-pmproofs/pulls) in case you find a shorter proof.
+
 ##### Direct Links
 
 - [L-pmproofs.txt](https://xamidi.github.io/luk-pmproofs/L-pmproofs.txt)

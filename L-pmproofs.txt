@@ -22,10 +22,10 @@ the here used axioms are:
 
 No wrap: pmGenerator -c -n -s CCpqCCqrCpr,CCNppp,CpCNpq -a SD data/empty.txt data/L-pmproofs.txt data/L-pmproofs-nowrap.txt -s -l -d
 
----------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 For pmGenerator:  THERE MUST BE NO SEMICOLONS IN THE ENTIRE BODY OF TEXT ABOVE.
 For pmGenerator:  THIS COMMENT HEADER ENDS WITH THE LINE OF DASHES BELOW.
----------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 
 ((P v P) -> P); ! *1.2 Taut
