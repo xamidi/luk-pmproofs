@@ -1,0 +1,13 @@
+#<img align="left" src="img/icon-readme.png">
+
+# @xamidi/luk-pmproofs ([repository](https://github.com/xamidi/luk-pmproofs))
+
+Variant of [metamath/mmsolitaire/pmproofs](https://us.metamath.org/mmsolitaire/pmproofs.txt) of the [Metamath Solitaire project](https://us.metamath.org/luk-pmproofs/mms.html) which uses alternative axioms
+
+|    | Infix notation      | Polish notation |
+|:-- |:------------------- |:--------------- |
+| L1 | (ψ→φ)→((φ→χ)→(ψ→χ)) | `CCpqCCqrCpr`   |
+| L2 | (¬ψ→ψ)→ψ            | `CCNppp`        |
+| L3 | ψ→(¬ψ→φ)            | `CpCNpq`        |
+
+from “[Łukasiewicz (L₁)-system](https://www.jstage.jst.go.jp/article/pjab1945/41/6/41_6_436/_pdf)”.
