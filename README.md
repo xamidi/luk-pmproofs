@@ -1,4 +1,4 @@
-#<img align="left" src="img/icon-readme.png">
+<img align="left" src="img/icon-readme.png">
 
 # @xamidi/luk-pmproofs ([repository](https://github.com/xamidi/luk-pmproofs))
 
