@@ -345,24 +345,21 @@ DD13D12DD11D1DD13D1222; ! 91 steps
 DD11D1D1DD13DD1D1DD1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD11D1DD13D12222
 ; ! 69 steps
 
-((Q -> (R -> S)) -> ((P v Q) -> ((P v R) -> (P v S))))
-; ! *2.81
+((Q -> (R -> S)) -> ((P v Q) -> ((P v R) -> (P v S)))); ! *2.81
 ((P -> (Q -> R)) -> ((S -> P) -> ((S -> Q) -> (S -> R))))
 ; ! Result of proof
 DD1DD13DD1DD11D13DD1DD11DD11DD1D1DD13DD1D1D3222D1DD11D12DD1DD11D1DD1D
 D13DD1D1D322D1DD1DD11D11DD11D1DD1DD13DD1D1D322D1DD11D1DD1DD1DD13DD11D
 D1D13DD11D1DD13D12DD11D1DD13D1222; ! 171 steps
 
-(((P v Q) v R) -> (((P v ~ R) v S) -> ((P v Q) v S)))
-; ! *2.82
+(((P v Q) v R) -> (((P v ~ R) v S) -> ((P v Q) v S))); ! *2.82
 ((~ (P -> Q) -> R) -> ((~ (P -> ~ R) -> S) -> (~ (P -> Q) -> S)))
 ; ! Result of proof
 DD1DD11DD1D1DD11D13DD1D1DD1DD13DD11DD1D13DD11D1DD13D12DD1D1DD13DD11DD
 11DD1D1DD13DD1D1D322DD12D132DD11DD1D1DD13DD1D1D3DD1232DD1221
 ; ! 129 steps
 
-((P -> (Q -> R)) -> ((P -> (R -> S)) -> (P -> (Q -> S))))
-; ! *2.83
+((P -> (Q -> R)) -> ((P -> (R -> S)) -> (P -> (Q -> S)))); ! *2.83
 ((P -> (Q -> R)) -> ((P -> (R -> S)) -> (P -> (Q -> S))))
 ; ! Result of proof
 DD11DD1D1DD11D11DD11DD1D1DD1DD13DD1D1D322D1DD11D1DD1DD1DD13DD11DD1D13
@@ -469,8 +466,7 @@ D2DD1DD13DD11DD1D13DD11D1DD13D12DD1D1DD1DD13DD11DD11DD1D1DD13DD1D1D32
 2DD12D133DD12D1DD1D2DD1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD11D1DD13D12
 2DD1D1DD13DD11D1332; ! 157 steps
 
-(((P ^ Q) -> R) -> ((P ^ ~ R) -> ~ Q))
-; ! *3.37 Transp
+(((P ^ Q) -> R) -> ((P ^ ~ R) -> ~ Q)); ! *3.37 Transp
 ((~ (P -> ~ Q) -> R) -> (~ (P -> ~ ~ R) -> ~ Q)); ! Result of proof
 DD1DD1DD11D1DD1DD13DD1D1D322D1DD13D1DD1DD1DD1DD13DD11DD1D13DD11D1DD13
 D12DD11D1DD13D12222D2DD1DD1DD1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD11D1
@@ -493,8 +489,7 @@ D1DD1D2DD1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD11D1DD13D122DD1D1DD13DD1
 D1DD1DD1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD11D1DD13D122D1DD13DD11DD11
 DD1D1DD13DD1D1D322DD12D132; ! 95 steps
 
-(((P -> Q) ^ (P -> R)) -> (P -> (Q ^ R)))
-; ! *3.43 Comp
+(((P -> Q) ^ (P -> R)) -> (P -> (Q ^ R))); ! *3.43 Comp
 (~ ((P -> Q) -> ~ (P -> R)) -> (P -> ~ (Q -> ~ R)))
 ; ! Result of proof
 D2DD1DD1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD11D1DD13D122D1DD1DD11DD1D1
@@ -518,8 +513,7 @@ D11DD1D13DD11D1DD13D12DD11D1DD13D122DD11D1D123DD11DD1D1DD13DD1D1D3222
 DD1DD11D1DD1DD13DD11DD1D13DD11D1DD13D12DD1D1DD13DD11DD11DD1D1DD13DD1D
 1D322DD12D132DD1DD11DD1D1DD13DD1D1D33222; ! 109 steps
 
-(((P -> R) ^ (Q -> S)) -> ((P ^ Q) -> (R ^ S)))
-; ! *3.47
+(((P -> R) ^ (Q -> S)) -> ((P ^ Q) -> (R ^ S))); ! *3.47
 (~ ((P -> Q) -> ~ (R -> S)) -> (~ (P -> ~ R) -> ~ (Q -> ~ S)))
 ; ! Result of proof
 D2DD1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD1D1DD1DD1DD1DD13DD11DD1D13DD1
@@ -531,8 +525,7 @@ DD11DD1D13DD11D1DD13D12DD1DD11DD11DD1D1DD13DD1D1D3222D1DD13D12D1DD1DD
 32D1DD1DD1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD11D1DD13D122D1DD13DD11DD
 11DD1D1DD13DD1D1D322DD12D132; ! 511 steps
 
-(((P -> R) ^ (Q -> S)) -> ((P v Q) -> (R v S)))
-; ! *3.48
+(((P -> R) ^ (Q -> S)) -> ((P v Q) -> (R v S))); ! *3.48
 (~ ((P -> Q) -> ~ (R -> S)) -> ((~ P -> R) -> (~ Q -> S)))
 ; ! Result of proof
 D2DD1DD1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD11D1DD13D122D1DD11D1DD1DD1
@@ -724,8 +717,7 @@ DD11DD1D1DD13DD1D1D322DD12D13DD12D1DD1DD1DD1DD13DD11DD1D13DD11D1DD13D
 12DD11D1DD13D1222DD1DD11D1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD11D1DD13
 D122DD11D1D1222; ! 429 steps
 
-(((P <-> R) ^ (Q <-> S)) -> ((P ^ Q) <-> (R ^ S)))
-; ! *4.38
+(((P <-> R) ^ (Q <-> S)) -> ((P ^ Q) <-> (R ^ S))); ! *4.38
 (~ (~ ((P -> Q) -> ~ (R -> S)) -> ~ ~ ((T -> U) -> ~ (V -> W))) -> ~
  ((~ (P -> ~ T) -> ~ (Q -> ~ U)) -> ~ (~ (R -> ~ V) -> ~ (S -> ~
  W)))); ! Result of proof
@@ -751,8 +743,7 @@ DD1DD1DD13DD11DD1D13DD11D1DD13D12DD11D1DD13D122D1DD13DD11DD11DD1D1DD1
 D1D1D322DD12D1332D1DD1DD1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD11D1DD13D
 122D1DD13DD11DD11DD1D1DD13DD1D1D322DD12D132; ! 1423 steps
 
-(((P <-> R) ^ (Q <-> S)) -> ((P v Q) <-> (R v S)))
-; ! *4.39
+(((P <-> R) ^ (Q <-> S)) -> ((P v Q) <-> (R v S))); ! *4.39
 (~ (~ ((P -> Q) -> ~ (R -> S)) -> ~ ~ ((T -> U) -> ~ (V -> W))) -> ~
  (((~ P -> T) -> (~ Q -> U)) -> ~ ((~ R -> V) -> (~ S -> W))))
 ; ! Result of proof
@@ -1150,8 +1141,7 @@ DD11D1DD13D12DD11D1DD13D12232DD1DD11DD11DD1D1DD13DD1D1D3222D1DD11D1DD
 322DD12D133212; ! 1187 steps
 
 (((((P ^ Q) -> R) <-> (P -> (Q -> R))) ^ ((P -> (Q -> R)) <-> (Q ->
- (P -> R)))) ^ ((Q -> (P -> R)) <-> ((Q ^ P) -> R)))
-; ! *4.87
+ (P -> R)))) ^ ((Q -> (P -> R)) <-> ((Q ^ P) -> R))); ! *4.87
 ~ (~ (~ (((~ (P -> ~ Q) -> R) -> (P -> (Q -> R))) -> ~ ((S -> (T ->
  U)) -> (~ (S -> ~ T) -> U))) -> ~ ~ (((V -> (W -> X)) -> (W -> (V
  -> X))) -> ~ ((Y -> (Z -> A)) -> (Z -> (Y -> A))))) -> ~ ~ (((B ->
@@ -1321,8 +1311,7 @@ DD1D1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD11D1DD13D122DD11DD11DD1D1DD13
 DD1D1D322DD12D13D1DD13DD1D1DD1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD11D1
 DD13D1222DD11DD11DD1D1DD13DD1D1D322DD12D13; ! 1215 steps
 
-(~ ((P ^ Q) v (~ P ^ ~ Q)) <-> ((P ^ ~ Q) v (Q ^ ~ P)))
-; ! *5.24
+(~ ((P ^ Q) v (~ P ^ ~ Q)) <-> ((P ^ ~ Q) v (Q ^ ~ P))); ! *5.24
 ~ ((~ (~ ~ (P -> ~ Q) -> ~ (~ P -> ~ ~ Q)) -> (~ ~ (P -> ~ ~ Q) -> ~
  (Q -> ~ ~ P))) -> ~ ((~ ~ (R -> ~ S) -> ~ (T -> ~ ~ U)) -> ~ (~ ~
  (U -> S) -> ~ (~ R -> ~ ~ T)))); ! Result of proof
@@ -1372,8 +1361,7 @@ D2DD1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD1D1DD1DD13DD11DD11DD1D1DD13DD
 3D122DD1D1DD13DD11D133D2DD1DD1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD11D1
 DD13D122D1DD13DD1DD11D13DD11D1DD13DD1D1D322DD121; ! 255 steps
 
-((P -> (Q <-> R)) <-> ((P ^ Q) <-> (P ^ R)))
-; ! *5.32
+((P -> (Q <-> R)) <-> ((P ^ Q) <-> (P ^ R))); ! *5.32
 ~ (((P -> ~ ((Q -> R) -> ~ (S -> T))) -> ~ ((~ (P -> ~ Q) -> ~ (P ->
  ~ R)) -> ~ (~ (P -> ~ S) -> ~ (P -> ~ T)))) -> ~ (~ ((~ (U -> ~ V)
  -> ~ (W -> ~ X)) -> ~ (~ (U -> ~ Y) -> ~ (Z -> ~ A))) -> (U -> ~
@@ -1624,8 +1612,7 @@ D13DD11DD11DD1D1DD13DD1D1D322DD12D1332DD11D1DD13D1D3D2DD1DD1DD13DD11D
 D1D13DD11D1DD13D12DD1D1DD13DD11DD11DD1D1DD13DD1D1D322DD12D13DD12D133
 ; ! 551 steps
 
-((P -> (Q <-> R)) <-> ((P -> Q) <-> (P -> R)))
-; ! *5.74
+((P -> (Q <-> R)) <-> ((P -> Q) <-> (P -> R))); ! *5.74
 ~ (((P -> ~ ((Q -> R) -> ~ (S -> T))) -> ~ (((P -> Q) -> (P -> R))
  -> ~ ((P -> S) -> (P -> T)))) -> ~ (~ (((U -> V) -> (W -> X)) -> ~
  ((Y -> Z) -> (W -> A))) -> (W -> ~ ((V -> X) -> ~ (Z -> A)))))
@@ -1647,8 +1634,7 @@ D11D1DD13D12DD1D1DD13DD11DD11DD1D1DD13DD1D1D322DD12D132DD1D1DD13DD11D
 D11DD1D1DD13DD1D1D322DD12D13DD11D1DD13DD1DD11D13DD1DD11DD11DD1D1DD13D
 D1D1D3222D1D12; ! 1049 steps
 
-(((R -> ~ Q) ^ (P <-> (Q v R))) -> ((P ^ ~ Q) <-> R))
-; ! *5.75
+(((R -> ~ Q) ^ (P <-> (Q v R))) -> ((P ^ ~ Q) <-> R)); ! *5.75
 (~ ((P -> Q) -> ~ ~ ((R -> (S -> T)) -> ~ ((U -> P) -> V))) -> ~ ((~
  (R -> ~ S) -> T) -> ~ (P -> ~ (V -> ~ Q)))); ! Result of proof
 D2DD1DD1DD1DD1DD1DD1DD13DD11DD1D13DD11D1DD13D12DD11D1DD13D122D1DD1DD1
