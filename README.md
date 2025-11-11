@@ -19,5 +19,6 @@ Please create [an issue](https://github.com/xamidi/luk-pmproofs/issues) or [a pu
 ##### Direct Links
 
 - [L-pmproofs.txt](https://xamidi.github.io/luk-pmproofs/L-pmproofs.txt)
+- [L-pmproofs-nowrap.txt](https://xamidi.github.io/luk-pmproofs/L-pmproofs-nowrap.txt)
 - [L-pm.txt](https://xamidi.github.io/luk-pmproofs/L-pm.txt)
 - [L-pm-compact.txt](https://xamidi.github.io/luk-pmproofs/L-pm-compact.txt)
