@@ -50,4 +50,4 @@ Here, propositional variables in formulas are simply natural numbers, but you co
 |4.|((¬ψ→ψ)→ψ)→(ψ→ψ)|(MP):2,3|
 |5.|ψ→ψ|(MP):1,4|
 
-In this formula-based representation, most of the proofs in the database grow very large. They will split to join common parts, which can be avoided by adding ` -j -1` to the command mentioned above.
+In this formula-based representation, most of the proofs in the database grow very large. They will split to join common parts, which can be avoided by adding <code>&nbsp;-j -1</code> to the command mentioned above.
