@@ -2,7 +2,7 @@
 
 # @xamidi/luk-pmproofs ([repository](https://github.com/xamidi/luk-pmproofs))
 
-Variant of [metamath/mmsolitaire/pmproofs](https://us.metamath.org/mmsolitaire/pmproofs.txt) of the [Metamath Solitaire project](https://us.metamath.org/luk-pmproofs/mms.html) which uses alternative axioms
+Variant of [metamath/mmsolitaire/pmproofs](https://us.metamath.org/mmsolitaire/pmproofs.txt) of the [Metamath Solitaire project](https://us.metamath.org/mmsolitaire/mms.html) which uses alternative axioms
 
 |    | Infix notation      | Polish notation |
 |:-- |:------------------- |:--------------- |
